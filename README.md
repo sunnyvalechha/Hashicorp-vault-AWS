@@ -23,8 +23,17 @@ Installation:
 		sudo apt update -y
 		sudo apt install vault -y
 		vault server -dev -dev-listen-address="0.0.0.0:8200"
-		vault
+		vault 		# validate if showing options means installed correctly
 
+  		export VAULT_ADDR='http://0.0.0.0:8200'
+
+Note: Leave the page of Installation as it is, Open new terminal
+
+![image](https://github.com/user-attachments/assets/da038195-cd9c-48ec-8bb9-4197152f71d7)
+
+Open with Public Ip:8200
+
+Token > Paste Token from Installation Page
 
 
 
